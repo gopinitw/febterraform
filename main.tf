@@ -23,3 +23,7 @@ resource "google_compute_instance" "default" {
 resource "google_storage_bucket" "name" {
   
 }
+
+resource "google_storage_bucket" "name_new" {
+  
+}
