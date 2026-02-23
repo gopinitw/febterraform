@@ -41,3 +41,7 @@ resource "google_storage_bucket" "name_new" {
 resource "google_storage_bucket" "name_new_2" {
   
 }
+
+resource "google_storage_bucket" "name" {
+  
+}
