@@ -17,6 +17,13 @@ resource "google_compute_instance" "default" {
 
     }
   }
+  network_interface {
+    network = google_compute_network.my_vpc.id
+
+    access_config {
+
+    }
+  }
   
 }
 
