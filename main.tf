@@ -23,6 +23,9 @@ resource "google_compute_instance" "default" {
     access_config {
 
     }
+    access_config {
+
+    }
   }
   
 }
