@@ -24,3 +24,8 @@ resource "google_compute_network" "my_vpc" {
   name                    = var.vpcname
   auto_create_subnetworks = false
 }
+
+resource "google_compute_network" "my_vpc" {
+  name                    = var.vpcname
+  auto_create_subnetworks = false
+}
