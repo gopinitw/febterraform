@@ -13,3 +13,7 @@ variable "machinetype" {
 variable "zones" {
   default = "us-central1-a"
 }
+
+variable "disk_size" {
+  default = 10
+}
