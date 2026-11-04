@@ -20,22 +20,7 @@ resource "google_compute_instance" "default" {
   
 }
 
-resource "google_storage_bucket" "name" {
-  
-}
-
-resource "google_storage_bucket" "name_new" {
-  
-}
-
-resource "google_storage_bucket" "name_new_2" {
-  
-}
-
-resource "google_storage_bucket" "name_new_3" {
-  
-}
-
-resource "google_storage_bucket" "name_new_4" {
-  
+resource "google_compute_network" "my_vpc" {
+  name                    = var.vpcname
+  auto_create_subnetworks = false
 }
